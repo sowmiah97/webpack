@@ -1,0 +1,24 @@
+{
+  "name": "webpack_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sowmiah97/webpack_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sowmiah97/webpack_project/issues"
+  },
+  "homepage": "https://github.com/sowmiah97/webpack_project#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "webpack": "^5.0.0-rc.6",
+    "webpack-cli": "^4.7.2"
+  }
+}
