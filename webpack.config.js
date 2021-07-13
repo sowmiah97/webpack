@@ -18,6 +18,10 @@ module.exports = {
               presets: ['@babel/preset-env']
             }
           }
+        },
+        {
+          test: /\.scss$/i, // This is regex to match type of files  ( Takes all scss files )
+          use: ["style-loader", "css-loader", "sass-loader"],// THe order in which we specify the loaders is important
         }
       ]
     },
