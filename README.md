@@ -6,3 +6,5 @@ Reads and implements documentation from https://webpack.js.org/guides/getting-st
 2. npm run build - Will process the entry file and give us the output file. ( Watch out for scripts in package.json)
 3. To do a live reloading, install webpack-dev-server and html-webpack-plugin to process and give us index.html file.
 4. Modify your webpack.config.js to include mode, devServer, plugins and then set up dev to webpack-dev-server --open / webapck serve in package.json to serve app and allow live reloading.
+5. Next step is to install babel from https://babeljs.io/setup#installation. 
+6. Install @babel/core and @babel/preset-env and make modifications to webconfig.js and .babelrc files respectively to tell webpack how and what to transpile. 
