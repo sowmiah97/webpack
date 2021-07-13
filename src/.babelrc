@@ -1,0 +1,3 @@
+{
+  "presets": ["@babel/preset-env"] // This is to specify babel on how to transpile. We can targe different versions of browsers even the old ones
+}

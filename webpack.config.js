@@ -7,6 +7,20 @@ module.exports = {
   devServer: {
     contentBase: './dist' // devServer tells webpack where to serve all our files from.
   },
+  module: {
+      rules: [
+        {
+          test: /\.m?js$/, // This is regex to match type of files  ( Takes all js files )
+          exclude: /node_modules/, // Exclude js files in node_modules folder and take files that match test regex
+          use: {
+            loader: "babel-loader",
+            options: {
+              presets: ['@babel/preset-env']
+            }
+          }
+        }
+      ]
+    },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Development'
