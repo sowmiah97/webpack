@@ -8,3 +8,4 @@ Reads and implements documentation from https://webpack.js.org/guides/getting-st
 4. Modify your webpack.config.js to include mode, devServer, plugins and then set up dev to webpack-dev-server --open / webapck serve in package.json to serve app and allow live reloading.
 5. Next step is to install babel from https://babeljs.io/setup#installation. 
 6. Install @babel/core and @babel/preset-env and make modifications to webconfig.js and .babelrc files respectively to tell webpack how and what to transpile. 
+7. Now, if you change your index.js with arrow functions and run npm run build, you'll be able to see a transpiled version under the dist folder.
