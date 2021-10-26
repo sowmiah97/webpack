@@ -12,3 +12,4 @@ Reads and implements documentation from https://webpack.js.org/guides/getting-st
 8. Next step is to introduce and install postcss loader. It is used to introduce vendor prefixes and also prefixes css with respect to browsers (http://autoprefixer.github.io/)
 9.Install @postcss-loader and @postcss and create a file called postcss.config.js. Add plugins that needs to be used and pass on their configurations. Eg: autoprefixer needs .browserlistrc
 10. Install other dependencies like cssnano(https://cssnano.co/ - Minifier), autoprefixer , rucksackcss(https://www.npmjs.com/package/rucksack-css), mini-css-extract plugin (https://webpack.js.org/plugins/mini-css-extract-plugin/ - Extract css from files) and update webpack.config.js
+11.Now on npm run build, css file will be generated based on configurations specified
